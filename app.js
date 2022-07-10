@@ -13,9 +13,9 @@ const rwClient = client.readWrite
 
 const tweet = async () => {
   try {
-    // await rwClient.v2.tweet("Good evening🥳")
+    await rwClient.v2.tweet("Good evening🥳")
     const result = await rwClient.v2.search('#JAVASCRIPT')
-    console.log('done', result.data)
+    console.log('data ->', result.data)
   } catch (error) {
     console.log('error ->', error)
   }
