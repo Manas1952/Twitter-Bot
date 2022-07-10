@@ -1,0 +1,21 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "twitter-api-v2": "^1.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
